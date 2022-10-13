@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-homework-todo/static/css/main.7acaea2f.css",
+    "main.js": "/react-homework-todo/static/js/main.cdd3526a.js",
+    "index.html": "/react-homework-todo/index.html",
+    "main.7acaea2f.css.map": "/react-homework-todo/static/css/main.7acaea2f.css.map",
+    "main.cdd3526a.js.map": "/react-homework-todo/static/js/main.cdd3526a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.cdd3526a.js"
+  ]
+}
