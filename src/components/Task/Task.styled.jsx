@@ -3,39 +3,34 @@ import styled from '@emotion/styled';
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  gap: ${p => p.theme.space[4]}px;
-  padding: ${p => p.theme.space[3]}px 0;
+  gap: 8px;
+  padding: 4px;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
 `;
 
 export const Text = styled.p`
-  flex-grow: 1;
+  margin-top: 0;
+  margin-bottom: 0;
 `;
 
 export const Btn = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  margin: 0;
   border: none;
-  border-radius: 4px;
-  background-color: transparent;
+  font: inherit;
   cursor: pointer;
-  color: #f44336;
+  outline: none;
+  margin-left: auto;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: #3f51b5;
+  color: #fff;
 
   &:active {
     background-color: #bdbdbd;
   }
 
-  :hover {
-    background-color: #e2e5e8;
+  &:hover,
+  :focus {
+    background-color: #303f9f;
   }
-`;
-
-export const Checkbox = styled.input`
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
 `;

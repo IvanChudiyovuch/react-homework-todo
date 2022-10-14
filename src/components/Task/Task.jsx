@@ -1,19 +1,17 @@
 import { useDispatch } from 'react-redux';
-import { MdClose } from 'react-icons/md';
-import { Wrapper, Text, Btn, Checkbox } from './Task.styled';
-import { deleteTask } from '../../redux/Tasks/operations';
+import { Wrapper, Text, Btn } from './Task.styled';
+import { deleteTask } from '../../redux/tasks/operations';
 
-export const Task = ({ task }) => {
+export const Task = ({ id, text }) => {
   const dispatch = useDispatch();
 
-  const handleDelete = () => dispatch(deleteTask(task.id));
+  const handleDelete = () => dispatch(deleteTask(id));
 
   return (
     <Wrapper>
-      <Checkbox type="checkbox" checked={task.completed} />
-      <Text>{task.text}</Text>
-      <Btn onClick={handleDelete}>
-        <MdClose size={24} />
+      <Text>{text}</Text>
+      <Btn type="button" onClick={handleDelete}>
+        Delete
       </Btn>
     </Wrapper>
   );

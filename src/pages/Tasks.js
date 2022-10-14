@@ -2,8 +2,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { TaskList } from 'components/TaskList/TaskList';
 import { TaskEditor } from 'components/TaskEditor/TaskEditor';
-import { fetchTasks } from '../redux/Tasks/operations';
-import { selectLoading } from '../redux/Tasks/selectors';
+import { fetchTasks } from '../redux/tasks/operations';
+import { selectLoading } from '../redux/tasks/selectors';
 
 export default function Tasks() {
   const dispatch = useDispatch();

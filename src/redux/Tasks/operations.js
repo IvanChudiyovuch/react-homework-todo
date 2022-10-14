@@ -1,6 +1,5 @@
-import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
-// import { getTasks } from './selectors';
+import axios from 'axios';
 
 // GET @ /tasks
 export const fetchTasks = createAsyncThunk(
