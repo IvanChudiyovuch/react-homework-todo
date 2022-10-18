@@ -1,25 +1,23 @@
 {
   "files": {
     "main.css": "/react-homework-todo/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-todo/static/js/main.fcc7988e.js",
+    "main.js": "/react-homework-todo/static/js/main.5927f68f.js",
     "static/js/526.c113fee0.chunk.js": "/react-homework-todo/static/js/526.c113fee0.chunk.js",
     "static/js/836.af478d8c.chunk.js": "/react-homework-todo/static/js/836.af478d8c.chunk.js",
     "static/js/309.0bdc3253.chunk.js": "/react-homework-todo/static/js/309.0bdc3253.chunk.js",
-    "static/js/591.a2c7c289.chunk.js": "/react-homework-todo/static/js/591.a2c7c289.chunk.js",
+    "static/js/613.c9607cb7.chunk.js": "/react-homework-todo/static/js/613.c9607cb7.chunk.js",
     "static/js/270.dad9b8a7.chunk.js": "/react-homework-todo/static/js/270.dad9b8a7.chunk.js",
-    "static/js/322.899565bd.chunk.js": "/react-homework-todo/static/js/322.899565bd.chunk.js",
     "index.html": "/react-homework-todo/index.html",
     "main.7acaea2f.css.map": "/react-homework-todo/static/css/main.7acaea2f.css.map",
-    "main.fcc7988e.js.map": "/react-homework-todo/static/js/main.fcc7988e.js.map",
+    "main.5927f68f.js.map": "/react-homework-todo/static/js/main.5927f68f.js.map",
     "526.c113fee0.chunk.js.map": "/react-homework-todo/static/js/526.c113fee0.chunk.js.map",
     "836.af478d8c.chunk.js.map": "/react-homework-todo/static/js/836.af478d8c.chunk.js.map",
     "309.0bdc3253.chunk.js.map": "/react-homework-todo/static/js/309.0bdc3253.chunk.js.map",
-    "591.a2c7c289.chunk.js.map": "/react-homework-todo/static/js/591.a2c7c289.chunk.js.map",
-    "270.dad9b8a7.chunk.js.map": "/react-homework-todo/static/js/270.dad9b8a7.chunk.js.map",
-    "322.899565bd.chunk.js.map": "/react-homework-todo/static/js/322.899565bd.chunk.js.map"
+    "613.c9607cb7.chunk.js.map": "/react-homework-todo/static/js/613.c9607cb7.chunk.js.map",
+    "270.dad9b8a7.chunk.js.map": "/react-homework-todo/static/js/270.dad9b8a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.fcc7988e.js"
+    "static/js/main.5927f68f.js"
   ]
 }
