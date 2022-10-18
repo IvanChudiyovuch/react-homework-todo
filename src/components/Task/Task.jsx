@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { Wrapper, Text, Btn } from './Task.styled';
-import { deleteTask } from '../../redux/tasks/operations';
+import { deleteTask } from '../../redux/tasks/TascsOperations';
 
 export const Task = ({ id, text }) => {
   const dispatch = useDispatch();
