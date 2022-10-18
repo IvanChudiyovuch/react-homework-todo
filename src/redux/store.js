@@ -10,7 +10,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { tasksReducer } from './tasks/slice.js';
+import { tasksReducer } from './tasks/TascsSlice.js';
 import { authReducer } from './auth/slice';
 
 const middleware = [
