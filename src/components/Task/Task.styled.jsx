@@ -20,7 +20,7 @@ export const Btn = styled.button`
   cursor: pointer;
   outline: none;
   margin-left: auto;
-  border-radius: 4px;
+  border-radius: ${p => p.theme.space[2]}px;
   padding: 8px 12px;
   background-color: #3f51b5;
   color: #fff;
