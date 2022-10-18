@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Provider store={store}>
-        <BrowserRouter basename="/react-homework-todo">
+        <BrowserRouter basename="/react-homework-todo/">
           <App />
         </BrowserRouter>
       </Provider>
